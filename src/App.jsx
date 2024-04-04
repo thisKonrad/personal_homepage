@@ -1,13 +1,17 @@
 /* :: APP :: */
+import Header from '../components/Header';
 import './App.css';
 
 export default function App() {
   return (
     <>
-      <div>
-        <p>Hi There !</p>
-      </div>
-      <div>Lets Dive in React Native</div>
+      <Header></Header>
+      <main>
+        <article>
+          <p>Hi There !</p>
+          <p>Lets Dive</p>
+        </article>
+      </main>
     </>
   );
 }
